@@ -53,7 +53,7 @@
         if ([x boolValue]) {
             [SVProgressHUD showWithStatus:@"正在登录中"];
         }else{
-        
+            [SVProgressHUD showWithStatus:@"登录完成"];
         }
     }];
     
